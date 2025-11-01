@@ -1,0 +1,97 @@
+<form id="registrationForm" novalidate>
+      <!-- Full name -->
+      <div>
+        <label for="fullName">Full name</label>
+        <input id="fullName" name="fullName" type="text" placeholder="e.g. Sundar Raj" required minlength="2" aria-describedby="nameHelp">
+        
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required aria-describedby="emailHelp">
+        
+      </div>
+
+      <!-- City -->
+      <div>
+        <label for="city">City</label>
+        <input id="city" name="city" type="text" placeholder="e.g. Chennai" required aria-describedby="cityHelp">
+        
+      </div>
+      <div class="actions">
+        <button type="button" class="secondary" id="clearBtn">Clear</button>
+        <button type="submit" id="submitBtn">Register</button>
+      </div>
+
+      <div id="formMessage" role="status" aria-live="polite"></div>
+    </form>  
+  `
+
+
+  `
+  <div class="grid" aria-label="about-sections">
+<section class="section">
+<h3>Who we are</h3>
+<p>We are a tight-knit team of engineers, designers, and product builders focused on creating secure, maintainable web and cloud applications for growing businesses. Our approach blends pragmatic engineering with clear product thinking.</p>
+</section>
+
+
+<section class="section">
+<h3>Our mission</h3>
+<p>To empower teams with software that reduces toil, scales with their needs, and delivers measurable value — fast.</p>
+</section>
+
+
+<section class="section">
+<h3>What we value</h3>
+<p>Quality over shortcuts, continuous learning, transparent communication, and long-term partnerships. We prioritize security, performance, and delightful user experience in every project.</p>
+</section>
+
+
+<section class="section">
+<h3>Get in touch</h3>
+<p>Want to collaborate or learn more? Email us at <a href="mailto:hello@novasoft.example">hello@novasoft.example</a> or visit our contact page.</p>
+</section>
+</div>
+
+
+<footer>
+© <span id="year"></span> NovaSoft Solutions — Crafted with care.
+</footer>
+  
+  
+  `
+
+  `
+  
+
+<section class="hero">
+<h1>Transforming Ideas into Scalable Software</h1>
+<p>At NovaSoft Solutions, we craft high-quality software that empowers businesses to grow, innovate, and stay ahead in the digital age.</p>
+<a href="about.html" class="cta-btn">Learn More</a>
+</section>
+
+
+<section class="features">
+<div class="feature">
+<h3>Custom Development</h3>
+<p>We build reliable web and cloud applications tailored to your unique business needs using modern technologies.</p>
+</div>
+<div class="feature">
+<h3>Agile Collaboration</h3>
+<p>Our agile approach ensures transparency, quick iterations, and continuous improvement throughout your project lifecycle.</p>
+</div>
+<div class="feature">
+<h3>End-to-End Support</h3>
+<p>From concept to launch and beyond, we provide complete lifecycle support to keep your software performing at its best.</p>
+</div>
+</section>
+
+
+<footer>
+© <span id="year"></span> NovaSoft Solutions — Crafted with care.
+</footer>
+  `
+
+
