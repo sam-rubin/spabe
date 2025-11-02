@@ -93,9 +93,8 @@
 © <span id="year"></span> NovaSoft Solutions — Crafted with care.
 </footer>
   `
- `
  <table border="1px" id="participants">
-  <tr><th>Name</th><th>Email</th><th>city</th></tr>
+  
 
   
  </table>
